@@ -1,8 +1,8 @@
 <section class="todoapp">
   <header class="header">
-    <h1>doit toit</h1>
+    <h1><span class="uline">do</span>it <span class="uline">to</span>it</h1>
     <form id="new-form">
-      <input type="text" class="new-todo" />
+      <input type="text" class="new-todo" placeholder="What needs to happen?" />
     </form>
   </header>
 
@@ -10,4 +10,9 @@
     <ul class="todo-list">
     </ul>
   </section>
+</section>
+
+<section class="author">
+  A <%= link_to "todo-mvc", "http://todomvc.com" %> application, built by
+  <%= link_to "Tyler Braddock", "https://github.com/tylerbraddock" %>
 </section>
